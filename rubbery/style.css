@@ -1,0 +1,87 @@
+/*
+Theme Name: Rubbery Blank Template
+Author: Nickolas Nikolic
+*/
+
+body{
+    margin: 1em;
+    background-image: radial-gradient(#ccc 80, #555);
+    background-repeat: repeat;
+    color: black;
+    font-family: 'isidoralight';
+}
+
+header > div > img{
+    display: none;
+}
+a, a:visited, a:active{
+    text-transform: uppercase;
+    color: #333;
+    text-decoration: none;
+    font-stretch: normal;
+    transition: all 200ms;
+}
+a:hover{
+    color: black;
+    font-stretch: expanded;
+}
+
+a::after{
+    color: black;
+    content: '\27A4';
+    margin-left: 0em;
+    opacity: 0;
+    transform: scale(1);
+    transition: all 120ms ease-out;
+}
+a:hover::after {
+    margin-left: 1em;
+    opacity: 1;
+    transform: scale(0.5);
+}
+
+a,li{
+    list-style: none;
+    line-height: 1.2em;
+}
+.post{
+    text-align: justify;
+    max-width: 25rem;
+    padding: 0.8rem;
+}
+
+.post img{
+    filter: contrast(30%) grayscale(150%);
+    z-index: -2;
+    width: 100%;
+    display: block;
+    margin-bottom: 0.8rem;
+    border-radius: 4.5px;
+}
+
+@media (max-width: 1279px) {
+    canvas{
+        display: none;
+    }
+    .bio{
+        line-height: 20px;
+        text-align: justify;
+    }
+    .bio img{
+        width: 100px;
+        float: left;
+        margin: 0rem 0.8rem 0.8rem 0rem;
+    }
+}
+
+@media (max-width: 1081px) {
+    canvas{
+        display: none;
+    }
+    .bio{
+        position: inherit;
+    }
+    .bio img{
+        display: none;
+    }
+}
