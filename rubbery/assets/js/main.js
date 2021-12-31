@@ -87,6 +87,10 @@ window.onload = () => {
             this.originalY = y;
             this.sensitivityRadius = 50;
         }
+
+        setColor(colorToSet){
+            context.strokeStyle = colorToSet;
+        }
     
         drawLetter(){
             context.font = '88px isidoralight';
@@ -169,7 +173,7 @@ window.onload = () => {
     
                 function layLetter(letter){
                     let l = new Letter( letter, xOffset, yOffset );
-                    context.strokeStyle = "#333";
+                    context.strokeStyle = "#99f";
                     l.drawLetter();
                     collectionToAnimate.push(l);
                 }
@@ -203,10 +207,11 @@ window.onload = () => {
             element.updateDistanceFromMouse();
         });
     });
-    
+
     function animate(){
         context.clearRect(0,0, canvas.width, canvas.height);
         collectionToAnimate.forEach((element, index) => {
+            element.setColor(`#ccc`);
             element.updateDistanceFromMouse();
         });
         requestAnimationFrame(animate);

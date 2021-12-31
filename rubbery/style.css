@@ -16,28 +16,14 @@ header > div > img{
 }
 a, a:visited, a:active{
     text-transform: uppercase;
-    color: #333;
-    text-decoration: none;
+    color: #99f;
+    text-decoration: underline;
     font-stretch: normal;
     transition: all 200ms;
 }
 a:hover{
     color: black;
     font-stretch: expanded;
-}
-
-a::after{
-    color: black;
-    content: '\27A4';
-    margin-left: 0em;
-    opacity: 0;
-    transform: scale(1);
-    transition: all 120ms ease-out;
-}
-a:hover::after {
-    margin-left: 1em;
-    opacity: 1;
-    transform: scale(0.5);
 }
 
 a,li{
