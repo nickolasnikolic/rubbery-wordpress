@@ -1,0 +1,27 @@
+[05-Dec-2021 15:23:29 America/New_York] PHP Fatal error:  Uncaught Error: Class "Client" not found in /home/rubbrrld/public_html/api/index.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/rubbrrld/public_html/api/index.php on line 6
+[05-Dec-2021 15:23:39 America/New_York] PHP Fatal error:  Uncaught Error: Class "Client" not found in /home/rubbrrld/public_html/api/index.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/rubbrrld/public_html/api/index.php on line 6
+[05-Dec-2021 15:23:56 America/New_York] PHP Fatal error:  Uncaught Error: Class "Client" not found in /home/rubbrrld/public_html/api/index.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/rubbrrld/public_html/api/index.php on line 6
+[05-Dec-2021 15:23:58 America/New_York] PHP Fatal error:  Uncaught Error: Class "Client" not found in /home/rubbrrld/public_html/api/index.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/rubbrrld/public_html/api/index.php on line 6
+[07-Dec-2021 10:24:33 America/New_York] PHP Fatal error:  Uncaught InvalidArgumentException: URI must be a string or UriInterface in /home/rubbrrld/public_html/wordpress/api/vendor/guzzlehttp/psr7/src/Utils.php:410
+Stack trace:
+#0 /home/rubbrrld/public_html/wordpress/api/vendor/guzzlehttp/guzzle/src/Client.php(160): GuzzleHttp\Psr7\Utils::uriFor()
+#1 /home/rubbrrld/public_html/wordpress/api/vendor/guzzlehttp/guzzle/src/Client.php(187): GuzzleHttp\Client->requestAsync()
+#2 /home/rubbrrld/public_html/wordpress/api/index.php(29): GuzzleHttp\Client->request()
+#3 {main}
+  thrown in /home/rubbrrld/public_html/wordpress/api/vendor/guzzlehttp/psr7/src/Utils.php on line 410
+[31-Dec-2021 07:15:36 America/New_York] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.0.2". You are running 7.2.34. in /home/rubbrrld/public_html/wordpress/api/vendor/composer/platform_check.php on line 24
+[31-Dec-2021 14:31:29 America/New_York] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.0.2". You are running 7.2.34. in /home/rubbrrld/public_html/wordpress/api/vendor/composer/platform_check.php on line 24
+[31-Dec-2021 18:07:11 America/New_York] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.0.2". You are running 7.2.34. in /home/rubbrrld/public_html/wordpress/api/vendor/composer/platform_check.php on line 24
+[31-Dec-2021 18:07:28 America/New_York] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.0.2". You are running 7.2.34. in /home/rubbrrld/public_html/wordpress/api/vendor/composer/platform_check.php on line 24

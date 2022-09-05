@@ -1,9 +1,9 @@
 /*
-Theme Name: Rubbery Blank Template
+Theme Name: Rubbery Blank Template OOP
 Author: Nickolas Nikolic
 */
 
-body{
+body {
     margin: 1em;
     background-image: radial-gradient(#ccc 80, #555);
     background-repeat: repeat;
@@ -11,32 +11,38 @@ body{
     font-family: 'isidoralight';
 }
 
-header > div > img{
+header>div>img {
     display: none;
 }
-a, a:visited, a:active{
+
+a,
+a:visited,
+a:active {
     text-transform: uppercase;
     color: #99f;
     text-decoration: underline;
     font-stretch: normal;
     transition: all 200ms;
 }
-a:hover{
+
+a:hover {
     color: black;
     font-stretch: expanded;
 }
 
-a,li{
+a,
+li {
     list-style: none;
     line-height: 1.2em;
 }
-.post{
+
+.post {
     text-align: justify;
     max-width: 25rem;
     padding: 0.8rem;
 }
 
-.post img{
+.post img {
     filter: contrast(30%) grayscale(150%);
     z-index: -2;
     width: 100%;
@@ -46,14 +52,16 @@ a,li{
 }
 
 @media (max-width: 1279px) {
-    canvas{
+    canvas {
         display: none;
     }
-    .bio{
+
+    .bio {
         line-height: 20px;
         text-align: justify;
     }
-    .bio img{
+
+    .bio img {
         width: 100px;
         float: left;
         margin: 0rem 0.8rem 0.8rem 0rem;
@@ -61,13 +69,15 @@ a,li{
 }
 
 @media (max-width: 1081px) {
-    canvas{
+    canvas {
         display: none;
     }
-    .bio{
+
+    .bio {
         position: inherit;
     }
-    .bio img{
+
+    .bio img {
         display: none;
     }
 }
